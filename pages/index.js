@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export default function Home() {
   return (
@@ -48,6 +49,7 @@ export default function Home() {
             </p>
           </a>
         </div>
+        <SpeedInsights/>
       </main>
 
       <footer className={styles.footer}>
